@@ -1,0 +1,12 @@
+# Agent-specific configuration for terminator
+model: null # Use global default model
+temperature: null # Use global default temperature
+top_p: null # Use global default top_p
+use_tools: null # Use tools defined in index.yaml
+agent_prelude: null # No specific session to load
+instructions: null # Use instructions from index.yaml
+variables:
+  auto_approve: false # Set to true to skip confirmation prompts (⚠️ use with caution)
+  timeout: 300 # Command timeout in seconds (default: 5 minutes)
+  show_real_time_output: true # Show command output in real-time
+  max_output_lines: 50 # Maximum lines of output to display (default: 50)
